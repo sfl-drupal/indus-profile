@@ -1,5 +1,4 @@
 core = 7.x
-projects[drupal][version] = 7.38
 api = 2
 
 ; Drupal core
