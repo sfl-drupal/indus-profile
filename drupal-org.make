@@ -20,5 +20,5 @@ projects[strongarm][version] = "2.0"
 projects[token][version] = "1.6"
 
 ; Themes
-projects[adminimal_theme][version] = "1.21"
+projects[adminimal_theme][version] = "1.22"
 projects[adminimal_theme][subdir] = ""
