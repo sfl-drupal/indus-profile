@@ -1,2 +1,2 @@
-# Reblochon
-Le profil d'installation des fromages
+# Indus profile
+Le profil d'installation pour la démo d'industrialisation
