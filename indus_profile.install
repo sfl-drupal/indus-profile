@@ -1,14 +1,14 @@
 <?php
 
 /**
- * @file  reblochon.install
+ * @file  indus_profile.install
  * Main installation file for Reblochon profile
  */
 
 /**
  * Remove language prefix for French (after it has been set automatically by site-install)
  */
-function reblochon_install_tasks(&$install_state) {
+function indus_profile_install_tasks(&$install_state) {
   if ($install_state['active_task'] == 'install_import_locales_remaining') {
     db_update('languages')->fields(array('prefix' => ''))->condition('language', 'fr')->execute();
 
@@ -21,7 +21,7 @@ function reblochon_install_tasks(&$install_state) {
 /**
  * Implements hook_install().
  */
-function reblochon_install() {
+function indus_profile_install() {
 
   // Default 'Basic page' to not be promoted and have comments disabled.
   variable_set('node_options_page', array('status'));
