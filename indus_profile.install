@@ -10,10 +10,9 @@
  */
 function indus_profile_install_tasks(&$install_state) {
   if ($install_state['active_task'] == 'install_import_locales_remaining') {
-    db_update('languages')->fields(array('prefix' => ''))->condition('language', 'fr')->execute();
 
     // Set default timezone & disable configurable timezones
-    variable_set('date_default_timezone', 'Europe/Paris');
+    variable_set('date_default_timezone', 'America/New-York');
     variable_set('configurable_timezones', 0);
   }
 }
