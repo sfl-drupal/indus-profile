@@ -7,7 +7,7 @@ includes[] = ../drupal-org-core.make
 ; Installation profile
 projects[indus_profile][type] = profile
 projects[indus_profile][download][type] = git
-projects[indus_profile][download][url] = https://github.com/sfl-drupal/indus-demo.git
+projects[indus_profile][download][url] = https://github.com/sfl-drupal/indus-profile.git
 projects[indus_profile][download][branch] = 7.x
 
 ; Core module
