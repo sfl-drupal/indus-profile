@@ -9,6 +9,7 @@ defaults[projects][l10n_url] = http://ftp.drupal.org/files/translations/l10n_ser
 ; Modules
 projects[admin_menu][version] = "3.0-rc5"
 projects[adminimal_admin_menu][version] = "1.6"
+projects[ctools][version] = "1.9"
 projects[devel][version] = "1.5"
 projects[diff][version] = "3.2"
 projects[features][version] = "2.5"
