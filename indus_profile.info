@@ -1,5 +1,5 @@
-name = Reblochon
-description = Le profil d'installation des fromages
+name = Indus profile
+description = Le profil d'installation pour la démo d'industrialisation
 core = 7.x
 
 ; Core
