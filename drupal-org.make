@@ -16,11 +16,13 @@ projects[domain][version] = "3.12"
 projects[entity_translation][version] = "1.0-beta4"
 projects[features][version] = "2.7"
 projects[features_orphans][version] = "1.2"
+projects[i18n][version] = "1.13"
 projects[module_filter][version] = "2.0"
 projects[pathauto][version] = "1.3"
 # projects[pathauto][patch][] = "http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch"
 projects[strongarm][version] = "2.0"
 projects[token][version] = "1.6"
+projects[variable][version] = "2.5"
 
 ; Themes
 projects[adminimal_theme][version] = "1.23"

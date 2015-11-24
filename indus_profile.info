@@ -17,6 +17,7 @@ dependencies[] = diff
 dependencies[] = entity_translation
 dependencies[] = features
 dependencies[] = features_orphans
+dependencies[] = i18n
 dependencies[] = module_filter
 dependencies[] = pathauto
 dependencies[] = strongarm
