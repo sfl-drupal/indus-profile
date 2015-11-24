@@ -12,8 +12,10 @@ function indus_profile_install_tasks(&$install_state) {
   if ($install_state['active_task'] == 'install_import_locales_remaining') {
 
     // Set default timezone & disable configurable timezones
-    variable_set('date_default_timezone', 'America/New-York');
+    variable_set('date_default_timezone', 'America/New_York');
     variable_set('configurable_timezones', 0);
+    variable_set('date_first_day', 1);
+    variable_set('site_default_country', 'CA');
   }
 }
 
