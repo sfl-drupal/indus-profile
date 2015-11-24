@@ -1,6 +1,9 @@
 core = 7.x
 api = 2
 
+; Defaults
+defaults[projects][l10n_url] = http://ftp.drupal.org/files/translations/l10n_server.xml
+
 ; Drupal core
 includes[] = ../drupal-org-core.make
 
