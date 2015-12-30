@@ -18,3 +18,10 @@ projects[indus_core][type] = module
 projects[indus_core][download][type] = git
 projects[indus_core][download][url] = https://github.com/sfl-drupal/indus-core.git
 projects[indus_core][download][branch] = 7.x
+
+
+; Core module
+projects[env_conf][type] = module
+projects[env_conf][download][type] = git
+projects[env_conf][download][url] = git@github.com:sfl-drupal/env_conf.git
+projects[env_conf][download][branch] = 7.x
