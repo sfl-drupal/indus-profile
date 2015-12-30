@@ -25,3 +25,4 @@ dependencies[] = token
 
 ; Custom
 dependencies[] = indus_core
+dependencies[] = env_conf
